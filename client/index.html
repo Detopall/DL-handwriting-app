@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Handwriting Model App</title>
+		<script src="assets/js/index.js" defer></script>
+		<link rel="stylesheet" href="assets/css/screen.css" />
+	</head>
+
+	<body>
+		<h1>Deep Learning Handwriting Prediction</h1>
+		<p>Write a number from 0-9 inside the box and see what number the model has predicted.</p>
+		<span id="result"></span>
+		<div class="canvas-container">
+			<canvas
+				id="myCanvas"
+				width="500px"
+				height="500px"
+			></canvas>
+			<button id="sendButton">Send Image</button>
+			<button id="clear">Clear</button>
+		</div>
+	</body>
+</html>
